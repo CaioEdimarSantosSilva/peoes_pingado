@@ -1,0 +1,514 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 2px solid #ffde59;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav>a>img {
+    width: 65px;
+    height: auto;
+}
+
+.menu {
+    text-decoration: none;
+    color: #895d39;
+    font-size: 1.2em;
+    padding: 5px 10px;
+
+}
+
+.menu:hover {
+    border-bottom: 3px solid #ffde59;
+}
+
+.banner>img {
+    width: 100%;
+
+}
+
+.quem_somos {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    color: #895d39;
+    font-size: 2em;
+    line-height: 1.5;
+    gap: 40px;
+}
+
+.quem_somos_intro {
+    display: flex;
+    border: 3px solid #eee;
+    box-shadow: 3px 3px 10px #ddd;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.quem_somos_intro_conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quem_somos_intro_conteudo>h1 {
+    margin-bottom: 15px;
+}
+
+.quem_somos_missao,
+.quem_somos_visao,
+.quem_somos_valores {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.quem_somos_visao {
+    text-align: right;
+}
+
+.quem_somos_imagem {
+    width: 135px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.quem_somos_imagem>img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.quem_somos_conteudo {
+    flex: 1;
+    padding: 0 20px;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.quem_somos_conteudo h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #895d39;
+}
+
+.quem_somos_conteudo p {
+    color: #895d39;
+}
+
+
+.jogos_cafes {
+    color: #895d39;
+    text-align: center;
+    padding: 0 10%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.jogos_cafes h1 {
+    margin-top: 3em;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.jogos_cafes p {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    font-size: 2em;
+    line-height: 1.4;
+}
+
+.cardapio {
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-wrap: wrap; 
+    gap: 30px;
+    padding: 40px;
+    border-bottom: 2px solid #eee;
+    border-right: 2px solid #eee;
+    border-left: 2px solid #eee;
+    border-radius: 16px;
+    box-shadow: 3px 3px 10px #ddd;
+
+}
+
+.titulo_cardapio {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+}
+
+
+
+.categoria .preco {
+    text-align: right;
+    min-width: 60px;
+    margin-left: 10px;
+}
+
+
+/* bloco com h3 + ul */
+.categoria {
+    background-color: #895d39;
+    border: 1px solid #ffde59;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+
+.categoria h3 {
+    text-align: start;
+    color: #ffde59;
+    font-size: 1.8em;
+    border-bottom: 1px solid #ffde59;
+    padding-bottom: 8px;
+    margin-bottom: 12px;
+}
+
+.categoria ul {
+    list-style-type: none;
+    color: white;
+    text-align: start;
+}
+
+.categoria li {
+    font-size: 1.3em;
+    border-bottom: 1px solid #ffde59;
+    margin-bottom: 10px;
+    display: flex;              
+    justify-content: space-between; 
+    align-items: flex-start;     
+}
+
+
+.combos {
+    margin: 50px 0;
+    padding: 40px 20px;
+    border-radius: 16px;
+    box-shadow: 3px 3px 10px #ddd;
+    text-align: center;
+}
+
+.titulo_combos {
+    color: #895d39;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.cards_combos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.cards_combos > div {
+    background-color: #ffde59;
+    border: 2px solid #895d39;
+    padding: 20px;
+    border-radius: 12px;
+    width: 30%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    color: #895d39;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: transform 0.2s ease;
+}
+
+
+
+.cards_combos h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    color: #895d39;
+    border-bottom: 2px solid #895d39;
+    padding-bottom: 6px;
+}
+.cards_combos p {
+    font-size: 1.3em;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+
+.ancoras{
+    margin-bottom: 150px;
+}
+
+
+
+
+.footer_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 0;
+    background-color: #895d39;
+    color: #ffde59;
+}
+
+
+.imagem_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+.imagem_footer img {
+    width: 60%;
+    
+}
+
+hr{
+    border-color: #ffde59;
+}
+
+.contatos_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.contatos_footer h2 {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ffde59;
+    padding-bottom: 6px;
+}
+
+.contatos_footer a,
+.contatos_footer address {
+    text-decoration: none;
+    color: #ffde59;
+    margin: 5px 0;
+    font-size: 1em;
+    font-style: normal;
+}
+
+.contatos_footer a:hover {
+    text-decoration: underline;
+}
+
+
+footer > p {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    background-color: #895d39;
+    font-size: 0.95em;
+    margin: 0;
+    color: #ffde59;
+    border-top: 1px solid #ffde59;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .banner>img {
+        margin-top: 60px; 
+    }
+    
+
+    nav {
+        padding: 8px 10px;
+    }
+    
+    .menu {
+        font-size: 0.9em;
+        padding: 3px 5px;
+        white-space: nowrap; 
+    }
+    
+    nav>a>img {
+        width: 50px; 
+    }
+    
+
+    .quem_somos_missao,
+    .quem_somos_visao,
+    .quem_somos_valores {
+        display: none;
+    }
+    
+    .quem_somos_intro {
+        flex-direction: column; 
+        text-align: center;
+        padding: 15px;
+    }
+    
+    .quem_somos_intro_imagem {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .quem_somos_intro_imagem>img{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    
+    
+    .quem_somos {
+        width: 95%;
+        font-size: 1.5em;
+    }
+    
+    .quem_somos_intro_conteudo>h1 {
+        font-size: 1.8em; 
+    }
+    
+
+    .cards_combos > div {
+        width: 100%; 
+        margin-bottom: 20px;
+    }
+    
+    .cards_combos {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .cards_combos>div>p{
+        font-size: 1em;
+    }
+
+    .jogos_cafes h1,
+    .jogos_cafes p,
+    .titulo_cardapio,
+    .titulo_combos{
+        font-size: 1.8em;
+    }
+    
+    .categoria h3 {
+        font-size: 1.5em;
+    }
+    
+    .categoria li {
+        font-size: 1.1em;
+        flex-wrap: wrap; 
+    }
+    
+    .preco {
+        width: 100%;
+        text-align: left !important;
+        margin-top: 5px;
+        margin-left: 0 !important;
+    }
+    
+
+    .footer_content {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 0;
+    }
+    
+    .imagem_footer {
+        width: 100%;
+    }
+    
+    .imagem_footer img {
+        width: 40%;
+    }
+    
+    .contatos_footer {
+        padding: 20px;
+    }
+    
+
+    .ancoras {
+        margin-bottom: 80px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .menu {
+        font-size: 0.8em; 
+        padding: 3px;
+    }
+    
+    .quem_somos {
+        font-size: 1.3em;
+    }
+    
+    .jogos_cafes h1,
+    .jogos_cafes p,
+    .titulo_cardapio,
+    .titulo_combos {
+        font-size: 1.5em;
+    }
+    
+    .cardapio,
+    .combos {
+        padding: 20px 10px;
+    }
+     .quem_somos_intro_imagem {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .quem_somos_intro_imagem>img{
+        width: 100%;
+    }
+}
+
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  transition: opacity 0.3s ease;
+}
+
+.loading-overlay.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 10px solid #ffde59;
+  border-top: 10px solid #895d39;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
