@@ -26,4 +26,4 @@ Você pode acessar a página diretamente por aqui:
 
 ## Exemplos visuais
 
-![Página Inicial](/imagens/imagens_site/peos_pigando.png)
+![Página Inicial](imagens/imagens_site/peoes_pingado.png)
