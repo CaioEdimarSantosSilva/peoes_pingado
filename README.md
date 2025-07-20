@@ -26,5 +26,5 @@ Você pode acessar a página diretamente por aqui:
 
 ## Exemplos visuais
 
-![Página Inicial](https://raw.githubusercontent.com/CaioEdimarSantosSilva/peoes_pingado/main/imagens/imagens_site/peoes_pingado.png)
+![Página Inicial](peoes_pingado/imagens/imagens_site/peos_pingado.png)
 
