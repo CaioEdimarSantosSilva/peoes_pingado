@@ -23,3 +23,7 @@ O site tem como objetivo apresentar de forma clara e atrativa os principais serv
 
 Você pode acessar a página diretamente por aqui:  
 🔗 [https://caioedimarsantossilva.github.io/peoes_pingado/](https://caioedimarsantossilva.github.io/peoes_pingado/)
+
+## Exemplos visuais
+
+![Página Inicial](/imagens/imagens_site/peos_pigando.png)
