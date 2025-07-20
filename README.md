@@ -1,8 +1,8 @@
-# ♟ Peões & Pingado
+# Peões & Pingado
 
 Landing page desenvolvida para a **Peões & Pingado**, uma cafeteria temática que une o aroma do café ao universo dos jogos de tabuleiro e cartas.
 
-## 🔍 Sobre o Projeto
+## Sobre o Projeto
 
 O site tem como objetivo apresentar de forma clara e atrativa os principais serviços e produtos oferecidos pela cafeteria, além de facilitar o contato com o público. A proposta é reforçar a identidade única do local, que combina lazer e aconchego.
 
